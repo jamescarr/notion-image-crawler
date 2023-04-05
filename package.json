@@ -1,0 +1,37 @@
+{
+  "name": "notion-image-crawler",
+  "version": "1.0.0",
+  "description": "A Node.js tool for crawling a Notion database and adding images to pages",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamescarr/notion-image-crawler.git"
+  },
+  "keywords": [
+    "notion",
+    "crawler",
+    "image",
+    "database"
+  ],
+  "author": "James R. Carr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamescarr/notion-image-crawler/issues"
+  },
+  "homepage": "https://github.com/jamescarr/notion-image-crawler#readme",
+  "type": "module",
+  "dependencies": {
+    "@notionhq/client": "^2.2.3",
+    "form-data": "^4.0.0",
+    "lodash": "^4.17.21",
+    "node-fetch": "^3.3.1",
+    "notion-client": "^6.16.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
